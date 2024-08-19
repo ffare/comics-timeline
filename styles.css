@@ -28,6 +28,8 @@ body {
 .box {
     background-color: hwb(45 55% 5%);
     width: 300px;
+    min-width: 100px;
+    max-width: 300px;
     height: max-content;
     border: 1px solid black;    
     cursor: pointer;
@@ -42,6 +44,6 @@ body {
 
 .box img {
     width: 100%;
-    height: auto;   /* Keep aspect ratio? */
+    height: auto;   /* Keep image aspect ratio */
     margin-bottom: -4px;    /* Removes extra box space */
 }

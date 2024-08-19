@@ -1,5 +1,6 @@
 const bgContainer = document.getElementById('bg-container');
 const contentContainer = document.getElementById('content-container');
+const boxes = document.getElementsByClassName('box');
 
 let offset = 0;
 let isDragging = false;
@@ -51,3 +52,12 @@ document.addEventListener('mousemove', (e) => {
     contentContainer.style.top = `${cinitialTop + e.clientY - cstartY}px`;        
 });
 
+// Zooming in and out
+document.addEventListener("wheel", (e) => {
+    const wheelOffset = Math.sign(e.deltaY);  // -1 for scrolling up, 1 for scrolling down
+    const MULTIPLIER = 10;
+
+    Array.from(boxes).forEach((box) => {
+        box.style.width = `${Math.max(0, box.getBoundingClientRect().width - wheelOffset*MULTIPLIER)}px`;
+    });    
+});
