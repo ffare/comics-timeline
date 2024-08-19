@@ -1,0 +1,19 @@
+[
+    {
+        "series_name": "Fantastic Four",
+        "issues":[
+            {              
+                "issue_number": "#1",
+                "coverImage": "https://files1.comics.org//img/gcd/covers_by_id/21/w400/21867.jpg?7128190504285478857"
+            },
+            {
+                "issue_number": "#2",
+                "coverImage": "https://files1.comics.org//img/gcd/covers_by_id/21/w400/21868.jpg"
+            },
+            {
+                "issue_number": "#3",
+                "coverImage": "https://files1.comics.org//img/gcd/covers_by_id/21/w400/21869.jpg?368077925825499540/"
+            }     
+        ]
+    }
+]
