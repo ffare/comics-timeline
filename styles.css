@@ -28,21 +28,20 @@ body {
 .box {
     background-color: hwb(45 55% 5%);
     width: 300px;
-    /* height: 450px; */ /*2:3 aspect ratio*/
-    cursor: pointer;
-    display: inline-block;
     height: max-content;
-    /* padding: 0; */
+    border: 1px solid black;    
+    cursor: pointer;
+    box-shadow: 0 12px 8px rgba(0, 0, 0, 0.3);    
 }
 
 .box div {
     color: rgb(0, 0, 0);
     background-color: hwb(45 55% 5%);
-    border: 1px solid black;
     font-family: cursive;
 }
 
 .box img {
     width: 100%;
-    height: 100%;   /* Keep aspect ratio? */
+    height: auto;   /* Keep aspect ratio? */
+    margin-bottom: -4px;    /* Removes extra box space */
 }

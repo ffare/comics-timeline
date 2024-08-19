@@ -32,6 +32,7 @@ document.addEventListener('mouseup', () => {
     bgContainer.style.cursor = 'grab';
 });
 
+// Mouse clicking and dragging
 document.addEventListener('mousemove', (e) => {
     if (!isDragging) return;
 
@@ -49,3 +50,4 @@ document.addEventListener('mousemove', (e) => {
     contentContainer.style.left = `${cinitialLeft + e.clientX - cstartX}px`;
     contentContainer.style.top = `${cinitialTop + e.clientY - cstartY}px`;        
 });
+
