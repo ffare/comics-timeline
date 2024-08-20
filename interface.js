@@ -54,9 +54,9 @@ document.addEventListener('mousemove', (e) => {
 
 // Zooming in and out
 document.addEventListener("wheel", (e) => {
-    const wheelOffset = Math.sign(e.deltaY);  // -1 for scrolling up, 1 for scrolling down
+    const wheelOffset = Math.sign(e.deltaY);  // -1 when scrolling up, 1 scrolling down
+    
     const MULTIPLIER = 10;
-
     Array.from(boxes).forEach((box) => {
         box.style.width = `${Math.max(0, box.getBoundingClientRect().width - wheelOffset*MULTIPLIER)}px`;
     });    

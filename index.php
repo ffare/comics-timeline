@@ -23,13 +23,19 @@ if ($json_data == null) {
 <body>
   <div id="bg-container">
     <div id="content-container">
-      <?php foreach ($json_data[0]['issues'] as $issue): ?>
-      <div class="box">
-        <div class="writer">Stan Lee</div>
-        <div class="title">Fantastic Four <?php echo $issue['issue_number']?></div>
-        <img loading="lazy" src="<?php echo $issue['coverImage']?>" alt="CoverImage">
+      <div class="series-container">
+        <!-- <div class="label"></div> -->
+        <div class="issues-container">          
+          <?php foreach ($json_data[0]['issues'] as $issue): ?>
+          <div class="box">
+            <div class="label"><?php echo $issue['script']?></div>
+            <img loading="lazy" src="<?php echo $issue['coverImage']?>" alt="CoverImage">
+            <div class="issue-number"><?php echo $issue['issue_number']?></div>
+          </div>          
+          <?php endforeach; ?>
+        </div>        
       </div>
-      <?php endforeach; ?>
+        
     </div>
   </div>
 </body>

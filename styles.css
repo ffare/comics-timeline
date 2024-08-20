@@ -18,12 +18,21 @@ body {
 }
 
 #content-container {
-    display: flex;
-    gap: 70px;
     position: absolute;
     top: 0px;
     left: 0px;
 }
+
+.series-container {
+    background-color: #f9ecda;
+    padding: 5px;
+}
+
+.issues-container {
+    display: flex;
+    gap: 70px;
+}
+
 
 .box {
     background-color: hwb(45 55% 5%);
@@ -33,17 +42,32 @@ body {
     height: max-content;
     border: 1px solid black;    
     cursor: pointer;
-    box-shadow: 0 12px 8px rgba(0, 0, 0, 0.3);    
+    box-shadow: 0 12px 8px rgba(0, 0, 0, 0.3);
+    font-family: cursive;    
 }
 
-.box div {
-    color: rgb(0, 0, 0);
-    background-color: hwb(45 55% 5%);
-    font-family: cursive;
+.label {
+    background-color: rgb(158, 243, 243);
+    /* position: relative; */
+    height: 1.5em;
+    width: auto;
+    /* margin-bottom: -1px; */
+    border-bottom: 1px solid black;     
 }
 
 .box img {
     width: 100%;
     height: auto;   /* Keep image aspect ratio */
     margin-bottom: -4px;    /* Removes extra box space */
+}
+
+.issue-number {
+    position: relative;
+    width: 1.5em;
+    height: 1.5em;
+    background-color: black;
+    color: white;
+    bottom: 20px;
+    left: 0px;
+    margin-bottom: -25px;    /* Removes extra box space */
 }
