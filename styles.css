@@ -30,13 +30,21 @@ body {
 .timescale-year {
     position: relative;
     top: 0px;
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 0 ;
+    padding-left: 0 !important;
+	padding-top:8px !important;
+	border-left: 4px solid black;
+	height:0px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     text-shadow: 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 
+.timescale-year h3{
+	position: absolute;
+    top: -7px;
+    left: -24px;
+}
 #content-container {
     position: absolute;
     top: 0px;
@@ -92,4 +100,16 @@ body {
     bottom: 20px;
     left: 0px;
     margin-bottom: -25px;    /* Removes extra box space */
+}
+
+
+
+
+.smalline{
+	background: red;
+    border: 1px solid #474747;
+    height: 3px;
+    position: absolute;
+    top: 0;
+	left: 20%;
 }
