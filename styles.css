@@ -14,7 +14,7 @@ body {
     background: url('bg.jpg') repeat;
     background-size: auto; 
     background-position: 0 0;
-    cursor: grab;
+    cursor: grab;   
 }
 
 #timescale-axis {
@@ -27,11 +27,14 @@ body {
     /* border: 20px solid purple; */
 }
 
-#timescale-axis .year {
+.timescale-year {
     position: relative;
-    top: -10px;
+    top: 0px;
     padding-right: 0;
     padding-left: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-shadow: 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 
 #content-container {
