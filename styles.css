@@ -17,6 +17,23 @@ body {
     cursor: grab;
 }
 
+#timescale-axis {
+    width: auto;
+    position: relative;
+    display: flex;
+    /* gap: 10px; */
+    border-top: 3px solid black;
+    margin-bottom: 50px;
+    /* border: 20px solid purple; */
+}
+
+#timescale-axis .year {
+    position: relative;
+    top: -10px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
 #content-container {
     position: absolute;
     top: 0px;
@@ -59,6 +76,8 @@ body {
     width: 100%;
     height: auto;   /* Keep image aspect ratio */
     margin-bottom: -4px;    /* Removes extra box space */
+    pointer-events: none; /* Disables mouse interaction */
+
 }
 
 .issue-number {
