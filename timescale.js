@@ -20,9 +20,23 @@ const drawTimescaleYears = () => {
     for (let i = 0; i < 2024-STARTING_YEAR; i++) {
         var timescaleYearChild = document.createElement('div');
         timescaleYearChild.className = 'timescale-year';
+		
+		
+        var smalline = document.createElement('div');
+        smalline.className = 'smalline';
+		
         let numericYear = STARTING_YEAR+1;
-
-        timescaleYearChild.textContent = (numericYear+i).toString();
+		
+		var pp= document.createElement('h3');
+		pp.textContent = (numericYear+i).toString();
+		timescaleYearChild.append( pp );
+		var K=10;
+		for (let j = 0; j < K; j++) {
+			var smalline = document.createElement('div');
+			smalline.className = 'smalline';
+			smalline.style.left= (j+1)*(100/K) + "%";
+			timescaleYearChild.append( smalline );
+		}
         timescaleAxis.appendChild(timescaleYearChild);
     }
 }
