@@ -23,9 +23,7 @@ if ($json_data == null) {
 <body>
  <div id="bg-container">  
     <div id="content-container">
-      <div id="timescale-axis">        
-        <div class="timescale-year">1962</div>        
-      </div>        
+      <div id="timescale-axis"></div>        
       <div class="series-container">
         <!-- <div class="label"></div> -->
         <div class="issues-container">          

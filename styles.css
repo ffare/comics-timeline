@@ -30,11 +30,28 @@ body {
 .timescale-year {
     position: relative;
     top: 0px;
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 0 ;
+    padding-left: 0 ;
+	padding-top: 8px ;
+	border-left: 4px solid black;
+	height: 0px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     text-shadow: 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
+
+.timescale-year p {
+	position: absolute;
+    top: -7px;
+    left: -21px;    /* Make it dynamic */
+}
+
+.small-line {
+    border: 1px solid #474747;
+    height: 3px;
+    position: absolute;
+    top: 0;
+	left: 20%;
 }
 
 #content-container {
@@ -63,7 +80,7 @@ body {
     border: 1px solid black;    
     cursor: pointer;
     box-shadow: 0 12px 8px rgba(0, 0, 0, 0.3);
-    font-family: cursive;    
+    font-family: cursive;  
 }
 
 .label {
