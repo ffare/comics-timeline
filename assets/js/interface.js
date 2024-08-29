@@ -1,6 +1,7 @@
 const bgContainer = document.getElementById('bg-container');
 const contentContainer = document.getElementById('content-container');
 const boxes = document.getElementsByClassName('box');
+const labels = document.getElementsByClassName('label');
 
 let offset = 0;
 let isDragging = false;
@@ -61,3 +62,34 @@ document.addEventListener("wheel", (e) => {
         box.style.width = `${Math.max(0, box.getBoundingClientRect().width - wheelOffset*MULTIPLIER)}px`;
     });    
 });
+
+function getRandomColor() {
+    let r = Math.floor(Math.random() * 128 + 128); // Range 128-255
+    let g = Math.floor(Math.random() * 128 + 128); // Range 128-255
+    let b = Math.floor(Math.random() * 128 + 128); // Range 128-255
+
+    let hex = "#" +
+        ("0" + r.toString(16)).slice(-2) +
+        ("0" + g.toString(16)).slice(-2) +
+        ("0" + b.toString(16)).slice(-2);
+
+    return hex;
+}
+
+const colorWriter = () => {    
+    window.onload = () => {
+        let prevWriter = '';
+        let color;
+
+        Array.from(labels).forEach((label) => {
+            if (label.textContent != prevWriter) {
+                // console.log(label.textContent);
+                color = getRandomColor();
+                prevWriter = label.textContent;
+            }            
+            label.style.backgroundColor = color;
+        })
+    }
+}
+
+colorWriter();

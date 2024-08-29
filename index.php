@@ -1,5 +1,5 @@
 <?php
-$json = file_get_contents('assets/data.json');
+$json = file_get_contents('data/data.json');
 if ($json == false) {
   die('Error handling the JSON');
 }
@@ -17,7 +17,11 @@ if ($json_data == null) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Main</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <!-- TODO: MAKE THIS SERVER SIDE -->
+  <script>
+    var jsonData= <?php echo json_encode($json_data); ?>;
+  </script>
 </head>
 
 <body>
@@ -41,6 +45,6 @@ if ($json_data == null) {
   </div>
 </body>
 
-<script src="interface.js"></script>
-<script src="timescale.js"></script>
+<script src="/assets/js/interface.js"></script>
+<script src="/assets/js/timescale.js"></script>
 </html>
