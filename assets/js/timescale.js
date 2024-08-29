@@ -3,9 +3,8 @@ const timescaleAxis = document.getElementById('timescale-axis');
 const issuesContainer = document.getElementsByClassName('issues-container');
 const box = document.getElementsByClassName('box');
 
-let timescaleAxisWidth = timescaleAxis.getBoundingClientRect().width;
 const STARTING_YEAR = 1962
-const NUM_SMALL_LINES = 10;   // Small lines on the timescale
+const NUM_SMALL_LINES = 12;   // Small lines on the timescale
 
 const drawTimescaleElements = () => {
     for (let i = 0; i < 2024-STARTING_YEAR; i++) {
@@ -34,9 +33,10 @@ const drawTimescaleElements = () => {
 const updateTimeScaler = () => {
     let gap = parseFloat(getComputedStyle(issuesContainer[0]).gap);
     let boxWidth = parseFloat(getComputedStyle(box[0]).width);
+    const NUM_ISSUES_PER_YEAR = 12;
 
     Array.from(timescaleYears).forEach((timescaleYear) => {
-        timescaleYear.style.width = `${gap + boxWidth }px`;
+        timescaleYear.style.width = `${NUM_ISSUES_PER_YEAR*(gap + boxWidth)}px`;
     });
 }
 

@@ -63,6 +63,7 @@ body {
 .series-container {
     background-color: #f9ecda;
     padding: 5px;
+    padding-left: 0px;
 }
 
 .issues-container {
@@ -74,7 +75,7 @@ body {
 .box {
     background-color: hwb(45 55% 5%);
     width: 300px;
-    min-width: 100px;
+    min-width: 10px;
     max-width: 300px;
     height: max-content;
     border: 1px solid black;    
