@@ -38,5 +38,45 @@
                 "coverImage": "https://files1.comics.org//img/gcd/covers_by_id/21/w400/21873.jpg?3543287277960341286"
             }    
         ]
+    },
+    {
+        "series_name": "Fantastic Four",
+        "issues":[
+            {              
+                "issue_number": "#1",
+                "script": "Stan Lee",
+                "coverImage": "https://files1.comics.org//img/gcd/covers_by_id/21/w400/21867.jpg?7128190504285478857"
+            },
+            {
+                "issue_number": "#2",
+                "script": "Stan Lee",
+                "coverImage": "https://files1.comics.org//img/gcd/covers_by_id/21/w400/21868.jpg?-8028734212425831055"
+            },
+            {
+                "issue_number": "#3",
+                "script": "Stan Lee",
+                "coverImage": "https://files1.comics.org//img/gcd/covers_by_id/21/w400/21869.jpg?368077925825499540/"
+            },
+            {              
+                "issue_number": "#4",
+                "script": "Stan Lee",
+                "coverImage": "https://files1.comics.org//img/gcd/covers_by_id/21/w400/21870.jpg?-3307264864877087371"
+            },
+            {
+                "issue_number": "#5",
+                "script": "Jack Kirby",
+                "coverImage": "https://files1.comics.org//img/gcd/covers_by_id/21/w400/21871.jpg?-4070763413219652327"
+            },
+            {
+                "issue_number": "#6",
+                "script": "Jack Kirby",
+                "coverImage": "https://files1.comics.org//img/gcd/covers_by_id/21/w400/21872.jpg?-8146838722590544766"
+            },
+            {
+                "issue_number": "#7",
+                "script": "Jack Kirby",
+                "coverImage": "https://files1.comics.org//img/gcd/covers_by_id/21/w400/21873.jpg?3543287277960341286"
+            }    
+        ]
     }
 ]

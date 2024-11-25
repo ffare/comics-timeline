@@ -30,7 +30,19 @@ if ($json_data == null) {
       <div id="timescale-axis"></div>        
       <div class="series-container">
         <!-- <div class="label"></div> -->
-        <div class="issues-container">          
+        <?php foreach ($json_data as $serie): ?>
+          <div class="issues-container">
+          <?php foreach ($serie['issues'] as $issue): ?>
+          <div class="box">
+            <div class="label"><?php echo $issue['script']?></div>
+            <img loading="lazy" src="<?php echo $issue['coverImage']?>" alt="CoverImage">
+            <div class="issue-number"><?php echo $issue['issue_number']?></div>
+          </div>          
+          <?php endforeach; ?>
+        </div>
+        <?php endforeach; ?>        
+        
+        <div class="issues-container">
           <?php foreach ($json_data[0]['issues'] as $issue): ?>
           <div class="box">
             <div class="label"><?php echo $issue['script']?></div>
@@ -38,7 +50,7 @@ if ($json_data == null) {
             <div class="issue-number"><?php echo $issue['issue_number']?></div>
           </div>          
           <?php endforeach; ?>
-        </div>        
+        </div>
       </div>
         
     </div>
