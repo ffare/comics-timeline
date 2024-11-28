@@ -1,82 +1,591 @@
 [
     {
-        "series_name": "Fantastic Four",
-        "issues":[
-            {              
+        "series_name": "",
+        "issues": [
+            {
                 "issue_number": "#1",
                 "script": "Stan Lee",
-                "coverImage": "https://files1.comics.org//img/gcd/covers_by_id/21/w400/21867.jpg?7128190504285478857"
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/f/f2/Fantastic_Four_Vol_1_1.jpg"
             },
             {
                 "issue_number": "#2",
                 "script": "Stan Lee",
-                "coverImage": "https://files1.comics.org//img/gcd/covers_by_id/21/w400/21868.jpg?-8028734212425831055"
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/3/3d/Fantastic_Four_Vol_1_2.jpg"
             },
             {
                 "issue_number": "#3",
                 "script": "Stan Lee",
-                "coverImage": "https://files1.comics.org//img/gcd/covers_by_id/21/w400/21869.jpg?368077925825499540/"
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/5/57/Fantastic_Four_Vol_1_3.jpg"
             },
-            {              
+            {
                 "issue_number": "#4",
                 "script": "Stan Lee",
-                "coverImage": "https://files1.comics.org//img/gcd/covers_by_id/21/w400/21870.jpg?-3307264864877087371"
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/0/01/Fantastic_Four_Vol_1_4.png"
             },
             {
                 "issue_number": "#5",
-                "script": "Jack Kirby",
-                "coverImage": "https://files1.comics.org//img/gcd/covers_by_id/21/w400/21871.jpg?-4070763413219652327"
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/e/e2/Fantastic_Four_Vol_1_5.png"
             },
             {
                 "issue_number": "#6",
-                "script": "Jack Kirby",
-                "coverImage": "https://files1.comics.org//img/gcd/covers_by_id/21/w400/21872.jpg?-8146838722590544766"
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/6/61/Fantastic_Four_Vol_1_6.png"
             },
             {
                 "issue_number": "#7",
-                "script": "Jack Kirby",
-                "coverImage": "https://files1.comics.org//img/gcd/covers_by_id/21/w400/21873.jpg?3543287277960341286"
-            }    
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/8/83/Fantastic_Four_Vol_1_7.png"
+            },
+            {
+                "issue_number": "#8",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/a/ad/Fantastic_Four_Vol_1_8.jpg"
+            },
+            {
+                "issue_number": "#9",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/a/ab/Fantastic_Four_Vol_1_9.png"
+            },
+            {
+                "issue_number": "#10",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/6/6a/Fantastic_Four_Vol_1_10.png"
+            },
+            {
+                "issue_number": "#11",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/d/df/Fantastic_Four_Vol_1_11.png"
+            },
+            {
+                "issue_number": "#12",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/2/2c/Fantastic_Four_Vol_1_12.png"
+            },
+            {
+                "issue_number": "#13",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/f/f2/Fantastic_Four_Vol_1_13.png"
+            },
+            {
+                "issue_number": "#14",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/8/8b/Fantastic_Four_Vol_1_14.png"
+            },
+            {
+                "issue_number": "#15",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/b/b3/Fantastic_Four_Vol_1_15.png"
+            },
+            {
+                "issue_number": "#16",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/2/2a/Fantastic_Four_Vol_1_16.png"
+            },
+            {
+                "issue_number": "#17",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/b/b7/Fantastic_Four_Vol_1_17.png"
+            },
+            {
+                "issue_number": "#18",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/7/7b/Fantastic_Four_Vol_1_18.jpg"
+            },
+            {
+                "issue_number": "#19",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/9/94/Fantastic_Four_Vol_1_19.png"
+            },
+            {
+                "issue_number": "#20",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/d/df/Fantastic_Four_Vol_1_20.png"
+            },
+            {
+                "issue_number": "#21",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/d/d5/Fantastic_Four_Vol_1_21.jpg"
+            },
+            {
+                "issue_number": "#22",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/6/64/Fantastic_Four_Vol_1_22.png"
+            },
+            {
+                "issue_number": "#23",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/0/0a/Fantastic_Four_Vol_1_23.png"
+            },
+            {
+                "issue_number": "#24",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/e/ec/Fantastic_Four_Vol_1_24.jpg"
+            },
+            {
+                "issue_number": "#25",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/4/4a/Fantastic_Four_Vol_1_25.png"
+            },
+            {
+                "issue_number": "#26",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/a/a3/Fantastic_Four_Vol_1_26.png"
+            },
+            {
+                "issue_number": "#27",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/4/4f/Fantastic_Four_Vol_1_27.png"
+            },
+            {
+                "issue_number": "#28",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/5/51/Fantastic_Four_Vol_1_28.png"
+            },
+            {
+                "issue_number": "#29",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/6/62/Fantastic_Four_Vol_1_29.jpg"
+            },
+            {
+                "issue_number": "#30",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/d/da/Fantastic_Four_Vol_1_30.png"
+            },
+            {
+                "issue_number": "#31",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/2/29/Fantastic_Four_Vol_1_31.jpg"
+            },
+            {
+                "issue_number": "#32",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/0/01/Fantastic_Four_Vol_1_32.jpg"
+            },
+            {
+                "issue_number": "#33",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/1/10/Fantastic_Four_Vol_1_33.jpg"
+            },
+            {
+                "issue_number": "#34",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/2/2e/Fantastic_Four_Vol_1_34.jpg"
+            },
+            {
+                "issue_number": "#35",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/6/6d/Fantastic_Four_Vol_1_35.jpg"
+            },
+            {
+                "issue_number": "#36",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/1/16/Fantastic_Four_Vol_1_36.jpg"
+            },
+            {
+                "issue_number": "#37",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/f/f6/Fantastic_Four_Vol_1_37.jpg"
+            },
+            {
+                "issue_number": "#38",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/1/10/Fantastic_Four_Vol_1_38.jpg"
+            },
+            {
+                "issue_number": "#39",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/b/b9/Fantastic_Four_Vol_1_39.jpg"
+            },
+            {
+                "issue_number": "#40",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/4/45/Fantastic_Four_Vol_1_40.jpg"
+            },
+            {
+                "issue_number": "#41",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/5/55/Fantastic_Four_Vol_1_41.jpg"
+            },
+            {
+                "issue_number": "#42",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/f/f4/Fantastic_Four_Vol_1_42.jpg"
+            },
+            {
+                "issue_number": "#43",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/0/0f/Fantastic_Four_Vol_1_43.jpg"
+            },
+            {
+                "issue_number": "#44",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/6/67/Fantastic_Four_Vol_1_44.jpg"
+            },
+            {
+                "issue_number": "#45",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/3/3a/Fantastic_Four_Vol_1_45.jpg"
+            },
+            {
+                "issue_number": "#46",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/a/a1/Fantastic_Four_Vol_1_46.jpg"
+            },
+            {
+                "issue_number": "#47",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/b/b6/Fantastic_Four_Vol_1_47.jpg"
+            },
+            {
+                "issue_number": "#48",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/f/fe/Fantastic_Four_Vol_1_48.jpg"
+            },
+            {
+                "issue_number": "#49",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/8/8c/Fantastic_Four_Vol_1_49.jpg"
+            },
+            {
+                "issue_number": "#50",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/7/7b/Fantastic_Four_Vol_1_50.jpg"
+            },
+            {
+                "issue_number": "#51",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/0/0c/Fantastic_Four_Vol_1_51.jpg"
+            },
+            {
+                "issue_number": "#52",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/a/a2/Fantastic_Four_Vol_1_52.jpg"
+            },
+            {
+                "issue_number": "#53",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/3/32/Fantastic_Four_Vol_1_53.jpg"
+            },
+            {
+                "issue_number": "#54",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/f/f2/Fantastic_Four_Vol_1_54.jpg"
+            },
+            {
+                "issue_number": "#55",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/e/ee/Fantastic_Four_Vol_1_55.jpg"
+            },
+            {
+                "issue_number": "#56",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/1/16/Fantastic_Four_Vol_1_56.jpg"
+            },
+            {
+                "issue_number": "#57",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/7/71/Fantastic_Four_Vol_1_57.jpg"
+            },
+            {
+                "issue_number": "#58",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/6/69/Fantastic_Four_Vol_1_58.jpg"
+            },
+            {
+                "issue_number": "#59",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/8/8e/Fantastic_Four_Vol_1_59.jpg"
+            },
+            {
+                "issue_number": "#60",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/d/d6/Fantastic_Four_Vol_1_60.jpg"
+            },
+            {
+                "issue_number": "#61",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/a/ad/Fantastic_Four_Vol_1_61.jpg"
+            },
+            {
+                "issue_number": "#62",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/5/5f/Fantastic_Four_Vol_1_62.jpg"
+            },
+            {
+                "issue_number": "#63",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/9/9e/Fantastic_Four_Vol_1_63.jpg"
+            },
+            {
+                "issue_number": "#64",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/0/0b/Fantastic_Four_Vol_1_64.jpg"
+            },
+            {
+                "issue_number": "#65",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/6/61/Fantastic_Four_Vol_1_65.jpg"
+            },
+            {
+                "issue_number": "#66",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/0/05/Fantastic_Four_Vol_1_66.jpg"
+            },
+            {
+                "issue_number": "#67",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/e/e7/Fantastic_Four_Vol_1_67.jpg"
+            },
+            {
+                "issue_number": "#68",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/5/55/Fantastic_Four_Vol_1_68.jpg"
+            },
+            {
+                "issue_number": "#69",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/7/71/Fantastic_Four_Vol_1_69.jpg"
+            },
+            {
+                "issue_number": "#70",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/a/a1/Fantastic_Four_Vol_1_70.jpg"
+            },
+            {
+                "issue_number": "#71",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/0/0f/Fantastic_Four_Vol_1_71.jpg"
+            },
+            {
+                "issue_number": "#72",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/c/c7/Fantastic_Four_Vol_1_72.jpg"
+            },
+            {
+                "issue_number": "#73",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/2/2d/Fantastic_Four_Vol_1_73.jpg"
+            },
+            {
+                "issue_number": "#74",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/1/19/Fantastic_Four_Vol_1_74.jpg"
+            },
+            {
+                "issue_number": "#75",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/4/40/Fantastic_Four_Vol_1_75.jpg"
+            },
+            {
+                "issue_number": "#76",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/2/2b/Fantastic_Four_Vol_1_76.jpg"
+            },
+            {
+                "issue_number": "#77",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/7/70/Fantastic_Four_Vol_1_77.jpg"
+            },
+            {
+                "issue_number": "#83",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/6/61/Fantastic_Four_Vol_1_83.jpg"
+            },
+            {
+                "issue_number": "#84",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/4/46/Fantastic_Four_Vol_1_84.jpg"
+            },
+            {
+                "issue_number": "#85",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/8/8b/Fantastic_Four_Vol_1_85.jpg"
+            },
+            {
+                "issue_number": "#86",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/2/2d/Fantastic_Four_Vol_1_86.jpg"
+            },
+            {
+                "issue_number": "#87",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/5/57/Fantastic_Four_Vol_1_87.jpg"
+            },
+            {
+                "issue_number": "#88",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/5/58/Fantastic_Four_Vol_1_88.jpg"
+            },
+            {
+                "issue_number": "#89",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/b/b5/Fantastic_Four_Vol_1_89.jpg"
+            },
+            {
+                "issue_number": "#90",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/7/70/Fantastic_Four_Vol_1_90.jpg"
+            },
+            {
+                "issue_number": "#91",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/c/c7/Fantastic_Four_Vol_1_91.jpg"
+            },
+            {
+                "issue_number": "#92",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/0/05/Fantastic_Four_Vol_1_92.jpg"
+            },
+            {
+                "issue_number": "#93",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/5/5e/Fantastic_Four_Vol_1_93.jpg"
+            },
+            {
+                "issue_number": "#94",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/2/2a/Fantastic_Four_Vol_1_94.jpg"
+            },
+            {
+                "issue_number": "#95",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/2/28/Fantastic_Four_Vol_1_95.jpg"
+            },
+            {
+                "issue_number": "#96",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/7/78/Fantastic_Four_Vol_1_96.jpg"
+            },
+            {
+                "issue_number": "#97",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/3/3f/Fantastic_Four_Vol_1_97.jpg"
+            },
+            {
+                "issue_number": "#98",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/f/fb/Fantastic_Four_Vol_1_98.jpg"
+            },
+            {
+                "issue_number": "#99",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/a/a3/Fantastic_Four_Vol_1_99.jpg"
+            },
+            {
+                "issue_number": "#100",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/7/7a/Fantastic_Four_Vol_1_100.jpg"
+            },
+            {
+                "issue_number": "#101",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/6/6d/Fantastic_Four_Vol_1_101.jpg"
+            },
+            {
+                "issue_number": "#102",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/1/11/Fantastic_Four_Vol_1_102.jpg"
+            },
+            {
+                "issue_number": "#103",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/c/cd/Fantastic_Four_Vol_1_103.jpg"
+            },
+            {
+                "issue_number": "#104",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/d/d3/Fantastic_Four_Vol_1_104.jpg"
+            },
+            {
+                "issue_number": "#105",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/2/2c/Fantastic_Four_Vol_1_105.jpg"
+            },
+            {
+                "issue_number": "#106",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/3/38/Fantastic_Four_Vol_1_106.jpg"
+            },
+            {
+                "issue_number": "#107",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/e/e5/Fantastic_Four_Vol_1_107.jpg"
+            },
+            {
+                "issue_number": "#108",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/d/df/Fantastic_Four_Vol_1_108.jpg"
+            },
+            {
+                "issue_number": "#109",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/d/d9/Fantastic_Four_Vol_1_109.jpg"
+            },
+            {
+                "issue_number": "#110",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/e/eb/Fantastic_Four_Vol_1_110.jpg"
+            },
+            {
+                "issue_number": "#111",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/5/5a/Fantastic_Four_Vol_1_111.jpg"
+            },
+            {
+                "issue_number": "#112",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/e/e4/Fantastic_Four_Vol_1_112.jpg"
+            },
+            {
+                "issue_number": "#113",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/a/a8/Fantastic_Four_Vol_1_113.jpg"
+            },
+            {
+                "issue_number": "#114",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/1/18/Fantastic_Four_Vol_1_114.jpg"
+            },
+            {
+                "issue_number": "#115",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/a/a8/Fantastic_Four_Vol_1_115.jpg"
+            },
+            {
+                "issue_number": "#116",
+                "script": "Archie Goodwin",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/a/aa/Fantastic_Four_Vol_1_116.jpg"
+            },
+            {
+                "issue_number": "#117",
+                "script": "Archie Goodwin",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/6/6f/Fantastic_Four_Vol_1_117.jpg"
+            },
+            {
+                "issue_number": "#118",
+                "script": "Archie Goodwin",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/b/b8/Fantastic_Four_Vol_1_118.jpg"
+            },
+            {
+                "issue_number": "#119",
+                "script": "Roy Thomas",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/e/ea/Fantastic_Four_Vol_1_119.jpg"
+            },
+            {
+                "issue_number": "#120",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/5/59/Fantastic_Four_Vol_1_120.jpg"
+            },
+            {
+                "issue_number": "#121",
+                "script": "Stan Lee",
+                "coverImage": "https://static.wikia.nocookie.net/marveldatabase/images/4/41/Fantastic_Four_Vol_1_121.jpg"
+            }
         ]
     },
     {
         "series_name": "Fantastic Four",
-        "issues":[
-            {              
-                "issue_number": "#1",
-                "script": "Stan Lee",
-                "coverImage": "https://files1.comics.org//img/gcd/covers_by_id/21/w400/21867.jpg?7128190504285478857"
-            },
-            {
-                "issue_number": "#2",
-                "script": "Stan Lee",
-                "coverImage": "https://files1.comics.org//img/gcd/covers_by_id/21/w400/21868.jpg?-8028734212425831055"
-            },
-            {
-                "issue_number": "#3",
-                "script": "Stan Lee",
-                "coverImage": "https://files1.comics.org//img/gcd/covers_by_id/21/w400/21869.jpg?368077925825499540/"
-            },
-            {              
-                "issue_number": "#4",
-                "script": "Stan Lee",
-                "coverImage": "https://files1.comics.org//img/gcd/covers_by_id/21/w400/21870.jpg?-3307264864877087371"
-            },
-            {
-                "issue_number": "#5",
-                "script": "Jack Kirby",
-                "coverImage": "https://files1.comics.org//img/gcd/covers_by_id/21/w400/21871.jpg?-4070763413219652327"
-            },
-            {
-                "issue_number": "#6",
-                "script": "Jack Kirby",
-                "coverImage": "https://files1.comics.org//img/gcd/covers_by_id/21/w400/21872.jpg?-8146838722590544766"
-            },
-            {
-                "issue_number": "#7",
-                "script": "Jack Kirby",
-                "coverImage": "https://files1.comics.org//img/gcd/covers_by_id/21/w400/21873.jpg?3543287277960341286"
-            }    
-        ]
+        "issues": []
     }
 ]
