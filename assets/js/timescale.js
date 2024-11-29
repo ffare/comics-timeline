@@ -1,6 +1,6 @@
 const timescaleYears = document.getElementsByClassName('timescale-year');
 const timescaleAxis = document.getElementById('timescale-axis');
-const issuesContainer = document.getElementsByClassName('issues-container');
+const issuesContainers = document.getElementsByClassName('issues-container');
 const box = document.getElementsByClassName('box');
 
 const STARTING_YEAR = 1962
@@ -31,7 +31,7 @@ const drawTimescaleElements = () => {
 }
 
 const updateTimeScaler = () => {
-    let gap = parseFloat(getComputedStyle(issuesContainer[0]).gap);
+    let gap = parseFloat(getComputedStyle(issuesContainers[0]).gap);
     let boxWidth = parseFloat(getComputedStyle(box[0]).width);
     const NUM_ISSUES_PER_YEAR = 12;
 

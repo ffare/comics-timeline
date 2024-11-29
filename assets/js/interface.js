@@ -53,15 +53,41 @@ document.addEventListener('mousemove', (e) => {
     contentContainer.style.top = `${cinitialTop + e.clientY - cstartY}px`;        
 });
 
-// Zooming in and out
+// Configuration
+const MIN_WIDTH = 40; // Minimum width in pixels
+const MIN_GAP = 10;
+const MULTIPLIER = 10; // Change amount per scroll step
+
+// Add wheel event listener
 document.addEventListener("wheel", (e) => {
-    const wheelOffset = Math.sign(e.deltaY);  // -1 when scrolling up, 1 when scrolling down
-    
-    const MULTIPLIER = 10;
+    const wheelOffset = Math.sign(e.deltaY); // Determine scroll direction (-1 or 1)
+
     Array.from(boxes).forEach((box) => {
-        box.style.width = `${Math.max(0, box.getBoundingClientRect().width - wheelOffset*MULTIPLIER)}px`;
-    });    
+        // Retrieve current width from dataset or default to computed width
+        let currentWidth = parseFloat(box.dataset.width) || box.offsetWidth;
+
+        // Adjust the width based on scroll direction
+        currentWidth -= wheelOffset * MULTIPLIER;
+
+        // Clamp the width to avoid going below the minimum value
+        currentWidth = Math.max(MIN_WIDTH, currentWidth);
+
+        // Save the new width to the dataset for future calculations
+        box.dataset.width = currentWidth;
+
+        // Apply the new width with a smooth transition
+        box.style.width = `${currentWidth}px`;
+    });
+
+    Array.from(issuesContainers).forEach((issueContainer) => {
+        let currentGap = parseFloat(issueContainer.dataset.gap) || parseFloat(window.getComputedStyle(issuesContainers[0]).gap);
+        currentGap -= wheelOffset * GAP_MULTIPLIER;
+        currentGap = Math.max(MIN_GAP, currentGap);
+        issueContainer.dataset.gap = currentGap;
+        issueContainer.style.gap = `${currentGap}px`;
+    });
 });
+
 
 function getRandomColor() {
     let r = Math.floor(Math.random() * 128 + 128); // Range 128-255
