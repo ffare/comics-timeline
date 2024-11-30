@@ -43,4 +43,4 @@ const updateTimeScaler = () => {
 drawTimescaleElements();
 updateTimeScaler(); // Call it once to init
 
-document.addEventListener("wheel", updateTimeScaler);
+document.addEventListener("wheel", updateTimeScaler, drawTimescaleElements);

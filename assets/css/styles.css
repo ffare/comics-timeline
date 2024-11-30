@@ -59,6 +59,7 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
+    pointer-events: none;
 }
 
 .series-container {
@@ -77,8 +78,8 @@ body {
 .box {
     background-color: hwb(45 55% 5%);
     width: 300px;
-    min-width: 50px;
-    max-width: 300px;
+    /* min-width: 50px; */
+    /* max-width: 300px; */
     height: max-content;
     border: 1px solid black;    
     cursor: pointer;

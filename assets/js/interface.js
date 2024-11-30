@@ -55,36 +55,40 @@ document.addEventListener('mousemove', (e) => {
 
 // Configuration
 const MIN_WIDTH = 40; // Minimum width in pixels
-const MIN_GAP = 10;
-const MULTIPLIER = 10; // Change amount per scroll step
+const SCROLL_SPEED = 0.1; // Change amount per scroll step
 
 // Add wheel event listener
 document.addEventListener("wheel", (e) => {
     const wheelOffset = Math.sign(e.deltaY); // Determine scroll direction (-1 or 1)
+    // e.preventDefault(); // Prevents the page from scrolling
+
+    let scale = 1;
+    if (wheelOffset > 0) {
+        scale += SCROLL_SPEED;
+    } else if (wheelOffset < 0) {
+        scale -= SCROLL_SPEED;
+    }
+
+    // Retrieve current width from dataset or default to computed width
+    let currentWidth = parseFloat(boxes[0].dataset.width) || boxes[0].offsetWidth;        
+    
+    // Adjust the width proportionally
+    currentWidth *= scale;
+
+    // Clamp the width to avoid going below the minimum value
+    currentWidth = Math.min(300, Math.max(MIN_WIDTH, currentWidth));
+
+    // Save the new width to the dataset for future calculations
+    boxes[0].dataset.width = currentWidth;
+
 
     Array.from(boxes).forEach((box) => {
-        // Retrieve current width from dataset or default to computed width
-        let currentWidth = parseFloat(box.dataset.width) || box.offsetWidth;
-
-        // Adjust the width based on scroll direction
-        currentWidth -= wheelOffset * MULTIPLIER;
-
-        // Clamp the width to avoid going below the minimum value
-        currentWidth = Math.max(MIN_WIDTH, currentWidth);
-
-        // Save the new width to the dataset for future calculations
-        box.dataset.width = currentWidth;
-
-        // Apply the new width with a smooth transition
-        box.style.width = `${currentWidth}px`;
+        box.style.width = `${currentWidth}px`;        
     });
+    
 
     Array.from(issuesContainers).forEach((issueContainer) => {
-        let currentGap = parseFloat(issueContainer.dataset.gap) || parseFloat(window.getComputedStyle(issuesContainers[0]).gap);
-        currentGap -= wheelOffset * GAP_MULTIPLIER;
-        currentGap = Math.max(MIN_GAP, currentGap);
-        issueContainer.dataset.gap = currentGap;
-        issueContainer.style.gap = `${currentGap}px`;
+        issueContainer.style.gap = `${currentWidth/5}px`;
     });
 });
 
