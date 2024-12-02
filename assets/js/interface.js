@@ -53,43 +53,67 @@ document.addEventListener('mousemove', (e) => {
     contentContainer.style.top = `${cinitialTop + e.clientY - cstartY}px`;        
 });
 
+// const updatePosition = (e, scale) => {
+//     // contentContainer.style.left = `${contentContainer.offsetLeft + e.clientX*scale}px`;
+//     console.log(contentContainer.offsetLeft + e.clientX*scale)
+//     contentContainer.style.top = `${contentContainer.offsetTop + e.clientY*scale}px`;
+// }
+
 // Configuration
 const MIN_WIDTH = 40; // Minimum width in pixels
+const MAX_WIDTH = 300; // Maximum width in pixels
 const SCROLL_SPEED = 0.1; // Change amount per scroll step
+
 
 // Add wheel event listener
 document.addEventListener("wheel", (e) => {
     const wheelOffset = Math.sign(e.deltaY); // Determine scroll direction (-1 or 1)
-    // e.preventDefault(); // Prevents the page from scrolling
 
+    // Calculate the scale factor based on scroll direction
     let scale = 1;
-    if (wheelOffset > 0) {
+    if (wheelOffset < 0) {
         scale += SCROLL_SPEED;
-    } else if (wheelOffset < 0) {
+    } else if (wheelOffset > 0) {
         scale -= SCROLL_SPEED;
     }
 
-    // Retrieve current width from dataset or default to computed width
-    let currentWidth = parseFloat(boxes[0].dataset.width) || boxes[0].offsetWidth;        
-    
-    // Adjust the width proportionally
-    currentWidth *= scale;
+    // Retrieve current width and compute the new width
+    let currentWidth = parseFloat(boxes[0].dataset.width) || boxes[0].offsetWidth;
+    let newWidth = currentWidth * scale;
 
-    // Clamp the width to avoid going below the minimum value
-    currentWidth = Math.min(300, Math.max(MIN_WIDTH, currentWidth));
+    // Clamp the width to avoid exceeding minimum and maximum bounds
+    newWidth = Math.min(MAX_WIDTH, Math.max(MIN_WIDTH, newWidth));
 
     // Save the new width to the dataset for future calculations
-    boxes[0].dataset.width = currentWidth;
+    boxes[0].dataset.width = newWidth;    
 
-
+    // Update each box's width
     Array.from(boxes).forEach((box) => {
-        box.style.width = `${currentWidth}px`;        
+        box.style.width = `${newWidth}px`;
     });
-    
 
+    // Adjust gaps for issuesContainers proportionally
     Array.from(issuesContainers).forEach((issueContainer) => {
-        issueContainer.style.gap = `${currentWidth/5}px`;
+        issueContainer.style.gap = `${newWidth / 5}px`;
     });
+
+    // Calculate scale factor
+    const scaleFactor = newWidth / currentWidth;
+
+    // Get the mouse position relative to the viewport
+    const mouseX = e.clientX;
+    const mouseY = e.clientY;
+
+    // Get the current position of the content container relative to the viewport
+    const rect = contentContainer.getBoundingClientRect();
+
+    // Calculate how much the contentContainer needs to move to center the zoom
+    const cdx = (mouseX - rect.left) * (1 - scaleFactor);
+    const cdy = (mouseY - rect.top) * (1 - scaleFactor);
+
+    // Translate the contentContainer
+    contentContainer.style.left = `${parseFloat(contentContainer.style.left || 0) + cdx}px`;
+    contentContainer.style.top = `${parseFloat(contentContainer.style.top || 0) + cdy}px`;
 });
 
 

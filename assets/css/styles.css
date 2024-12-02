@@ -88,7 +88,7 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
     pointer-events: none; /* Disables mouse interaction */
-    transition: width 0.1s ease; /* Smooth width adjustment */
+    /*transition: width 0.1s ease; /* Smooth width adjustment */
 }
 
 .label {
@@ -98,6 +98,7 @@ body {
     width: auto;
     /* margin-bottom: -1px; */
     border-bottom: 1px solid black;     
+    overflow: hidden;
 }
 
 .box img {
