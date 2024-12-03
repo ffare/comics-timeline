@@ -33,16 +33,21 @@ const drawTimescaleElements = () => {
 
 const updateTimeScaler = () => {
     let gap = parseFloat(getComputedStyle(issuesContainers[0]).gap);
-    let boxWidth = box[0].offsetWidth;
+    let boxWidth = box[0].getBoundingClientRect().width;
     let borderLeft = parseFloat(getComputedStyle(timescaleYears[0]).borderLeft);
     const NUM_ISSUES_PER_YEAR = 12;
 
     Array.from(timescaleYears).forEach((timescaleYear) => {
-        timescaleYear.style.width = `${NUM_ISSUES_PER_YEAR*(gap + boxWidth)}px`;
+        timescaleYear.style.width = `${NUM_ISSUES_PER_YEAR*(gap + boxWidth) - borderLeft}px`;
     });
+
+    console.log("wheel");
+    console.log(gap);
+    console.log(boxWidth);
+    console.log(borderLeft);
 }
 
 drawTimescaleElements();
 updateTimeScaler(); // Call it once to init
 
-document.addEventListener("wheel", updateTimeScaler);
+document.addEventListener("wheel", updateTimeScaler);;
